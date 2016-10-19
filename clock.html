@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript clock</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+  </head>
+  <body>
+
+    <div class="clock-wrapper">
+      <div id="clock-holder">
+        <div class="clock" id="hours"></div>
+        <div class="devider">&bull;</div>
+        <div class="clock" id="minutes"></div>
+        <div class="devider">&bull;</div>
+        <div class="clock" id="seconds"></div>
+        <div class="devider" id="milliseconds-devider">&bull;</div>
+        <div class="clock" id="milliseconds"></div>
+        <div class="clock" id="prefix"></div>
+      </div>
+
+      <div id="settings">
+        Show milliseconds: <input type="checkbox" id="ms">
+        AM/PM: <input type="checkbox" id="ampm">
+      </div>
+    </div>
+
+  </body>
+</html>

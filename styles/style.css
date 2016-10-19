@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Century Gothic', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.clock-wrapper {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  margin-top: -50px; /* Half of the height */
+  left: 50%;
+  width: 460px;
+  margin-left: -230px; /* Half of the width */
+}
+
+.clock {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  width: 60px;
+}
+
+#milliseconds {
+  width: 80px;
+}
+
+.devider {
+  display: inline-block;
+  font-size: 30px;
+  width: 20px;
+}
+
+#prefix {
+  width: 75px;
+}
